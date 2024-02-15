@@ -19,3 +19,15 @@ That way we can learn how to generate security events on the Kali VM, set up an 
 We will need to create a free account to set up a cloud Elastic instance that we can run the SIEM on. They do offer a 14 day trail. To do that, follow these steps:
 
 1. Sign up for the free trail Elastic Cloud account at https://cloud.elastic.co/registration
+2. Once your free account is created, please log into it.
+3. Click on "Create Deployment" and select "ElasticSearch" as the deployment type.
+4. Choose your region and the deployment size that fits your needs and click on "Create Deployment".
+5. Wait for the configuration to complete and once it is complete, click "continue".
+
+## Task 2: Setting up the Linux VM
+Now, we need to set up the Linux VM. You can use any Linux OS and virtualization software for this, but I used Kali Linux and Oracle VirtualBox.
+
+1. Download the Kali Linux VM from the official Kali website at https://www.kali.org/get-kali/#kali-virtual-machines.
+2. Create a new VM with the Kali VM file in your preferred virtualization platform.
+3. Start the VM and follow the on-screen prompts to install Kali.
+4. Once the installation is complete, log in to the Kali VM using the credentials “kali” for both the username and password.
