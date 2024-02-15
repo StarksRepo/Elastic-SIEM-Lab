@@ -34,3 +34,12 @@ Now, we need to set up the Linux VM. You can use any Linux OS and virtualization
 
 ## Task 3: Setting up Agent to Collect Logs
 An agent is a software program that is installed on a device to collect and send data to a centralized system for analysis and monitoring. In the context of Elastic SIEM, an agent is used to collect and forward security-related events from your endpoints to your Elastic SIEM instance.
+
+Follow these steps to set up the agent to collect logs from your Kali VM and forward them to the Elastic SIEM.
+1. In to your Elastic SIEM instance navigate to the Integrations page by: clicking on the hamburger menu bar at the top left, then selecting “Integrations” at the bottom.
+
+<img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/e2f93f43-b6ab-49e5-a3c1-d0f36b0f1fd0" width=200>
+
+2. Search for "Elastic Defend" and click on it so that opens the integration page.
+
+<img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/e6e663b7-8ae5-4cf5-b253-a800031a1f7f" width=800>
