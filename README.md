@@ -31,3 +31,6 @@ Now, we need to set up the Linux VM. You can use any Linux OS and virtualization
 2. Create a new VM with the Kali VM file in your preferred virtualization platform.
 3. Start the VM and follow the on-screen prompts to install Kali.
 4. Once the installation is complete, log in to the Kali VM using the credentials “kali” for both the username and password.
+
+## Task 3: Setting up Agent to Collect Logs
+An agent is a software program that is installed on a device to collect and send data to a centralized system for analysis and monitoring. In the context of Elastic SIEM, an agent is used to collect and forward security-related events from your endpoints to your Elastic SIEM instance.
