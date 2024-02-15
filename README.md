@@ -43,3 +43,9 @@ Follow these steps to set up the agent to collect logs from your Kali VM and for
 2. Search for "Elastic Defend" and click on it so that opens the integration page.
 
 <img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/e6e663b7-8ae5-4cf5-b253-a800031a1f7f" width=800>
+
+3.  Click on “Install Elastic Defend” and follow the instructions provided on the integration page to install the agent on your Kali VM.
+   
+<img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/da520604-84e4-47c2-9849-f01ab7ee1f96" width=500>
+
+<img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/6f5b71ab-8ff8-40de-aacd-098ccb792569" width=500>
