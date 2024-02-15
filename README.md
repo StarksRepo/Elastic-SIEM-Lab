@@ -49,3 +49,7 @@ Follow these steps to set up the agent to collect logs from your Kali VM and for
 <img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/da520604-84e4-47c2-9849-f01ab7ee1f96" width=500>
 
 <img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/6f5b71ab-8ff8-40de-aacd-098ccb792569" width=500>
+
+4. Paste that command into the Kali terminal.
+
+<img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/14ff02be-ebcb-4ceb-8d92-3ef3616b1374" width=400>
