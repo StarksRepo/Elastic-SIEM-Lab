@@ -53,3 +53,11 @@ Follow these steps to set up the agent to collect logs from your Kali VM and for
 4. Paste that command into the Kali terminal.
 
 <img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/14ff02be-ebcb-4ceb-8d92-3ef3616b1374" width=400>
+
+5. Once the agent is installed, which will take a few minutes, you’ll see a message that says “Elastic Agent has been successfully installed.” It will automatically start collecting and forwarding logs to your Elastic SIEM instance, allow a few minutes for the logs to appear in the SIEM.
+   
+<img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/056bf322-6966-44ae-bf0b-eb63c1ce94bf" widht=30>
+
+## Step 4: Generate security events on the Kali VM
+To verify that the agent is working correctly, we will generate some security related events on the VM. We will use Nmap to verify this.
+
