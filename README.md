@@ -25,7 +25,7 @@ We will need to create a free account to set up a cloud Elastic instance that we
 5. Wait for the configuration to complete and once it is complete, click "continue".
 
 ## Step 2: Setting up the Linux VM
-Now, we need to set up the Linux VM. You can use any Linux OS and virtualization software for this, but I used Kali Linux and Oracle VirtualBox.
+Now, we need to set up the Linux VM. I used Kali Linux and Oracle VirtualBox.
 
 1. Download the Kali Linux VM from the official Kali website at https://www.kali.org/get-kali/#kali-virtual-machines.
 2. Create a new VM with the Kali VM file in your preferred virtualization platform.
@@ -44,7 +44,7 @@ Follow these steps to set up the agent to collect logs from your Kali VM and for
 
 <img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/e6e663b7-8ae5-4cf5-b253-a800031a1f7f" width=800>
 
-3.  Click on “Install Elastic Defend” and follow the instructions provided on the integration page to install the agent on your Kali VM.
+3. Click on “Install Elastic Defend” and follow the instructions provided on the integration page to install the agent on your Kali VM.
    
 <img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/da520604-84e4-47c2-9849-f01ab7ee1f96" width=500>
 
