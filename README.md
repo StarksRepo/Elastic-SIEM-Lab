@@ -58,7 +58,7 @@ Follow these steps to set up the agent to collect logs from your Kali VM and for
    
 <img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/056bf322-6966-44ae-bf0b-eb63c1ce94bf">
 
-## Step 4: Generate security events on the Kali VM
+## Step 4: Generate Security Events on the Kali VM
 To verify that the agent is working correctly, we will generate some security related events on the VM. We will use Nmap to verify this, which comes preinstalled on Kali.
 
 1. Run a scan on Kali machine by running ths command: "sudo nmap <vm-ip>".
@@ -69,3 +69,17 @@ To verify that the agent is working correctly, we will generate some security re
 
 ![nmap -sS](https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/b89987c9-6db7-4c3a-b095-c9ee36d5a390)
 
+## Step 5: Querying for Security Events in the Elastic SIEM
+Now that we have forwarded data from the Kali VM to the SIEM, we can start querying and analyzing the logs in the SIEM.
+
+1. Inside your Elastic Deployment, click on the hamburger icon at the top-left and then click on the “Logs” tab under “Observability” to view the logs from the Kali VM.
+
+![logs](https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/74355fd4-af19-469a-97be-3460242036a2)
+
+2. In the search bar, enter a search query to filter the logs. For example, to search for all logs related to Nmap scans, enter the query: event.action: “nmap_scan” or process.args: “sudo”.
+
+4. Click on the “Search” button to execute the search query.
+
+Please note that it can sometimes take a while for the events to populate and show up on the SIEM, so this query might not work right away give it time if needed.
+
+4. The results of the search query will be displayed in the table below. You can click on the three dots next to each event to view more details.
