@@ -15,7 +15,7 @@ That way we can learn how to generate security events on the Kali VM, set up an 
 6. Create a Dashboard to visualize security events.
 7. Create alerts for security events.
 
-## Task 1: Set up your Elastic Account
+## Step 1: Set up your Elastic Account
 We will need to create a free account to set up a cloud Elastic instance that we can run the SIEM on. They do offer a 14 day trail. To do that, follow these steps:
 
 1. Sign up for the free trail Elastic Cloud account at https://cloud.elastic.co/registration
@@ -24,7 +24,7 @@ We will need to create a free account to set up a cloud Elastic instance that we
 4. Choose your region and the deployment size that fits your needs and click on "Create Deployment".
 5. Wait for the configuration to complete and once it is complete, click "continue".
 
-## Task 2: Setting up the Linux VM
+## Step 2: Setting up the Linux VM
 Now, we need to set up the Linux VM. You can use any Linux OS and virtualization software for this, but I used Kali Linux and Oracle VirtualBox.
 
 1. Download the Kali Linux VM from the official Kali website at https://www.kali.org/get-kali/#kali-virtual-machines.
@@ -32,7 +32,7 @@ Now, we need to set up the Linux VM. You can use any Linux OS and virtualization
 3. Start the VM and follow the on-screen prompts to install Kali.
 4. Once the installation is complete, log in to the Kali VM using the credentials “kali” for both the username and password.
 
-## Task 3: Setting up Agent to Collect Logs
+## Step 3: Setting up Agent to Collect Logs
 An agent is a software program that is installed on a device to collect and send data to a centralized system for analysis and monitoring. In the context of Elastic SIEM, an agent is used to collect and forward security-related events from your endpoints to your Elastic SIEM instance.
 
 Follow these steps to set up the agent to collect logs from your Kali VM and forward them to the Elastic SIEM.
