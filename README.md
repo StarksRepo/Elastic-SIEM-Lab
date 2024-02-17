@@ -80,6 +80,18 @@ Now that we have forwarded data from the Kali VM to the SIEM, we can start query
 
 4. Click on the “Search” button to execute the search query.
 
-Please note that it can sometimes take a while for the events to populate and show up on the SIEM, so this query might not work right away give it time if needed.
+*Please be aware that it can sometimes take a while for the events to populate and show up on the SIEM, so this query might not work right away give it time if needed.*
 
 4. The results of the search query will be displayed in the table below. You can click on the three dots next to each event to view more details.
+
+![nmap command ran details](https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/ab259524-5379-4dc1-be1c-c010141f3987)
+
+By generating and analyzing different types of security events in Elastic SIEM like the one above, or generating authentication failures by typing in the wrong password or attempting SSH logins with a incorrect password, you can gain a better understanding of how security incidents are detected, investigated, and responded to in the real-world.
+
+## Step 6: Creating a Dashboard to Vizualize such Events.
+You can use the visualizations and dashboards in the SIEM app to analyze the logs and identify patterns or anomalies in the data. For example, you can create a simple dashboard that shows a count of security events over time.
+
+1. Navigate to the Elastic web portal at https://cloud.elastic.co/.
+2. Click on the menu icon on the top-left, then under “Analytics,” click on “Dashboards.”
+
+![dashboard creation](https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/9b5f56a7-525f-440c-b740-60ea2edf46a1)
