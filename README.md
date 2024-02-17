@@ -95,3 +95,15 @@ You can use the visualizations and dashboards in the SIEM app to analyze the log
 2. Click on the menu icon on the top-left, then under “Analytics,” click on “Dashboards.”
 
 ![dashboard creation](https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/9b5f56a7-525f-440c-b740-60ea2edf46a1)
+
+3.  Click on the “Create dashboard” button on the top right to create a new dashboard.
+4. Click on the “Create Visualization” button to add a new visualization to the dashboard.
+5. Select “Area” or “Line” as the visualization type, depending on your preference. This will create a chart that shows the count of events over time.
+
+![area dashboard](https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/7ef501ce-8416-4009-b22f-475ad7f7a478)
+
+6. In the “Metrics” section of the visualization editor on the right, select “Count” as the vertical field type and “Timestamp” for the horizontal field. This will show the count of events over time.
+
+![dashboard metrics](https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/ee5eed56-2ebb-435f-b184-f2fdd11fe93f)
+
+7. Click on the “Save” button to save the visualization and then complete the rest of the settings.
