@@ -9,7 +9,7 @@ That way we can learn how to generate security events on the Kali VM, set up an 
 ## Objectives
 1. Set up a free Elastic account.
 2. Install the Kali VM.
-3. Configure the Elastic Agent on the Linux VM to collect the logs and forward it to the SIEM.
+3. Configure the Elastic Agent on the Kali Linux VM to collect the logs and forward it to the SIEM.
 4. Generate security events on the Kali VM.
 5. Query to find the security events in the Elastic SIEM.
 6. Create a Dashboard to visualize security events.
