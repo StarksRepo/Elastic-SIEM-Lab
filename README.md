@@ -56,8 +56,16 @@ Follow these steps to set up the agent to collect logs from your Kali VM and for
 
 5. Once the agent is installed, which will take a few minutes, you’ll see a message that says “Elastic Agent has been successfully installed.” It will automatically start collecting and forwarding logs to your Elastic SIEM instance, allow a few minutes for the logs to appear in the SIEM.
    
-<img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/056bf322-6966-44ae-bf0b-eb63c1ce94bf" widht=30>
+<img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/056bf322-6966-44ae-bf0b-eb63c1ce94bf">
 
 ## Step 4: Generate security events on the Kali VM
-To verify that the agent is working correctly, we will generate some security related events on the VM. We will use Nmap to verify this.
+To verify that the agent is working correctly, we will generate some security related events on the VM. We will use Nmap to verify this, which comes preinstalled on Kali.
+
+1. Run a scan on Kali machine by running ths command: "sudo nmap <vm-ip>".
+
+<img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/30a2a198-e15d-4ee1-9ac2-a6f95a3adbb2">
+
+2. This scan can generate several security events, such as the detection of open ports and the identification of services running on those ports. Run a few more Nmap scans such as, “nmap -sS <ip address>”, “nmap -sT <ip address>”, “nmap -p- <ip address>” and so on..
+
+![nmap -sS](https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/b89987c9-6db7-4c3a-b095-c9ee36d5a390)
 
