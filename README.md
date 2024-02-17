@@ -61,7 +61,7 @@ Follow these steps to set up the agent to collect logs from your Kali VM and for
 ## Step 4: Generate Security Events on the Kali VM
 To verify that the agent is working correctly, we will generate some security related events on the VM. We will use Nmap to verify this, which comes preinstalled on Kali.
 
-1. Run a scan on Kali machine by running ths command: "sudo nmap <vm-ip>".
+1. Run a scan on the Kali machine by running ths command: "sudo nmap <your vm-ip>".
 
 <img src="https://github.com/StarksRepo/Elastic-SIEM-Lab/assets/155681117/30a2a198-e15d-4ee1-9ac2-a6f95a3adbb2">
 
@@ -80,7 +80,7 @@ Now that we have forwarded data from the Kali VM to the SIEM, we can start query
 
 4. Click on the “Search” button to execute the search query.
 
-*Please be aware that it can sometimes take a while for the events to populate and show up on the SIEM, so this query might not work right away give it time if needed.*
+*Be aware that it can sometimes take a while for the events to populate and show up on the SIEM, so this query might not work right away give it time if needed.*
 
 4. The results of the search query will be displayed in the table below. You can click on the three dots next to each event to view more details.
 
